@@ -140,6 +140,8 @@ long FileSize(const char *path)
 
     return size;
 }
+<<<<<<< HEAD
+=======
 /* get a file extension*/
 const char *GetFileExtension(const char *path)
 {
@@ -163,3 +165,4 @@ bool WriteToFile(const char *path, const char *data)
     fclose(file);
     return true;
 }
+>>>>>>> 8a481b741317ba9204cf37d23b1aea6a7613bc46
